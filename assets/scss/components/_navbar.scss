@@ -1,0 +1,63 @@
+.navbar-custom {
+  background-color: $white !important;
+  font-family: $font-secondary;
+  padding: 1.5rem 0.5rem;
+  .container {
+    .navbar-brand {
+      color: $black;
+    }
+    .navbar-toggler {
+      border: transparent;
+
+      &:focus {
+        box-shadow: 0 0 0 0rem !important;
+      }
+
+      .navbar-toggler-icon {
+        border: $black !important;
+      }
+    }
+
+    .navbar-nav {
+      height: 100vh;
+      transition: ease-in-out 1s;
+      padding-top: 5rem;
+
+      .nav-item {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem 0;
+        font-size: $font-lg;
+      }
+
+      .dropdown {
+        transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+}
+
+@media (min-width: 756px) {
+  .nav-item {
+    font-size: $font-2xl !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-custom {
+    padding: 2rem 0;
+
+    .navbar-brand {
+      font-size: $font-3xl;
+    }
+
+    .nav-item {
+      font-size: $font-3xl !important;
+
+      .dropdown-item {
+        font-size: $font-2xl !important;
+      }
+    }
+  }
+}

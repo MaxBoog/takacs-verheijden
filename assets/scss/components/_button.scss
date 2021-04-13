@@ -1,0 +1,33 @@
+.button-primary {
+  padding: 1rem 1.5rem;
+  background-color: $color-1;
+  border-radius: 0px;
+  transition: ease-in-out 0.1s;
+  font-weight: bold;
+  font-size: $font-sm;
+  color: $white;
+
+  &:hover {
+    // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    //   0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transform: translateY(3px);
+    color: $white;
+  }
+}
+
+.button-secondary {
+  @extend .button-primary;
+
+  background-color: $light-grey;
+  color: $black;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+@media (min-width: 756px) {
+  .button-primary {
+    font-size: $font-xl !important;
+  }
+}

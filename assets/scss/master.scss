@@ -1,6 +1,8 @@
-@import "base/_variables.scss";
-@import "base/_base.scss";
+@import "base/variables";
+@import "base/base";
 
-// @import "layouts/_";
-
-// @import "components/_";
+@import "components/button";
+@import "components/card";
+@import "components/footer";
+@import "components/hero";
+@import "components/navbar";

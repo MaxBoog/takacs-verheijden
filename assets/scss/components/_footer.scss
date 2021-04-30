@@ -16,10 +16,36 @@ footer {
       color: $color-2;
     }
   }
+
+  .footer-quote {
+    max-width: 20rem;
+  }
+
+  .copyright {
+    p {
+      margin-bottom: 0;
+    }
+    .dbw {
+      font-size: 10px;
+    }
+    .icon-note {
+      color: $grey;
+      font-size: 7px;
+    }
+  }
+
+  hr {
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 756px) {
-  footer {
+  .footer {
     text-align: left;
+  }
+
+  .footer-quote {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }

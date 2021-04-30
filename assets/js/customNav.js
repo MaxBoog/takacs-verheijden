@@ -5,7 +5,7 @@ class CustomNav extends HTMLElement {
         
         <nav class="navbar navbar-custom navbar-light fixed-top shadow">
             <div class="container">
-            <a class="navbar-brand" href="/">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</a>
+            <a class="navbar-brand" href="/"><img class="img-logo" width="180"  src="/assets/images/logo.png" alt="Takacs & Verheijden"/></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,11 +19,11 @@ class CustomNav extends HTMLElement {
                         Leiderschap in de academie
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/coaching.html">Coaching</a></li>
-                            <li><a class="dropdown-item" href="/intervisie.html">Intervisie</a></li>
-                            <li><a class="dropdown-item" href="/verandertrajecten.html">Verandertrajecten</a></li>
-                            <li><a class="dropdown-item" href="/leiderschapsontwikkeling.html">Leiderschapsontwikkeling</a></li>
-                            <li><a class="dropdown-item" href="/samenwerken-in-groepen.html">Samenwerken in groepen</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#coaching">Coaching</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#intervisie">Intervisie</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#verandertrajecten">Verandertrajecten</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#leiderschapsontwikkeling">Leiderschapsontwikkeling</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#samenwerken-in-groepen">Samenwerken in groepen</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

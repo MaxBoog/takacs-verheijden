@@ -18,12 +18,22 @@
   color: $color-2;
 }
 
+// base
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-primary;
+  //   padding-top: 119px;
 }
 
 .container-fluid {
   padding: 0;
+}
+
+.gray-background {
   background-color: $light-grey;
 }
 
@@ -41,7 +51,7 @@ h5 {
 }
 
 hr {
-  max-width: 40rem;
+  //   max-width: 40rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-left: auto;

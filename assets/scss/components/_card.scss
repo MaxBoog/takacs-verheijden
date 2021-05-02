@@ -1,6 +1,6 @@
 .card {
   border: none;
-  border: 1px solid black;
+  font-size: $font-sm;
   .card-body {
     padding: 1.5rem 1.5rem;
 
@@ -17,12 +17,18 @@
       overflow: hidden;
     }
   }
-}
-
-@media (min-width: 756px) and (max-width: 992px) {
-  .card {
+  .card-image {
+    object-fit: cover;
+    height: 100%;
   }
 }
 
-@media (min-width: 992px) {
+.card-2 {
+  @extend .card;
+}
+
+@media (min-width: 756px) {
+  .card {
+    font-size: $font-base;
+  }
 }

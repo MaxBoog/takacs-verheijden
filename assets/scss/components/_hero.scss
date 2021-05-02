@@ -16,6 +16,7 @@
   .hero-title {
     color: $white;
     font-family: $font-secondary;
+    font-size: $font-2xl;
   }
 
   .hero-subtitle {
@@ -27,9 +28,22 @@
   .hero-section {
     display: flex;
   }
+
+  .logo {
+    width: 25rem;
+  }
+  // arrow down
+
+  .arrow-down {
+    color: $white;
+    margin-bottom: -7rem;
+  }
 }
 
 @media (min-width: 756px) {
+  .hero-title {
+    font-size: $font-4xl !important;
+  }
   .hero-subtitle {
     font-size: $font-2xl !important;
   }

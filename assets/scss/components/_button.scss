@@ -1,4 +1,4 @@
-.button-primary {
+.button-1 {
   padding: 1rem 1.5rem;
   background-color: $color-1;
   border-radius: 0px;
@@ -7,7 +7,8 @@
   font-size: $font-sm;
   color: $white;
   //   box-shadow: 1px 1px 5px $black;
-  //   border: 1px solid black;
+  border: 1px solid black;
+  max-width: 370px;
 
   &:hover {
     // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -17,8 +18,8 @@
   }
 }
 
-.button-secondary {
-  @extend .button-primary;
+.button-2 {
+  @extend .button-1;
 
   background-color: $light-grey;
   color: $black;
@@ -28,8 +29,29 @@
   }
 }
 
+.button-3 {
+  @extend .button-1;
+  background-color: $color-4;
+  color: $black;
+}
+
+.button-4 {
+  @extend .button-1;
+
+  background-color: $color-3;
+}
+
 @media (min-width: 756px) {
   .button-primary {
     font-size: $font-xl !important;
   }
+}
+
+// socials
+
+.btn-social {
+  padding-left: 0;
+}
+.linked-in {
+  color: #0a66c2;
 }

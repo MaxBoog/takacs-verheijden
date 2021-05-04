@@ -3,6 +3,77 @@
     <custom-head page="Contact"></custom-head>
     <body>
         <custom-nav></custom-nav>
+
+        <section id="contact">
+            <div class="container">
+                <hr>
+                <h1 class="text-center py-5">Contactformulier</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form id="contactformulier" name="contactformulier Takacs" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                            <div class="messages"></div>
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                                <p class="hidden">
+                                                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                                      </p>
+    
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Voornaam *" required="required" data-error="Het invullen van uw voornaam is verplicht."/>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+    
+                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Achternaam *" required="required"
+                                                data-error="Het invullen van uw achternaam is verplicht.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+    
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email *" required="required" data-error="Dit is geen geldig e-mailadres">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+    
+                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Telefoonnummer">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+    
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Uw bericht... *" rows="4" required="required"
+                                                data-error="Zonder bericht wordt het lastig om u te helpen."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <div data-netlify-recaptcha="true"></div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-send" value="Verstuur bericht">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <custom-footer></custom-footer>
 

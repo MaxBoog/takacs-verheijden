@@ -9,11 +9,11 @@ class CustomFooter extends HTMLElement {
             <div class="container padding-y footer">
                 <div class="row justify-content-start">
                     <div class="col-lg-4">
-                        <h3 class="font-secondary">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</h3>
+                        <h3 class="font-secondary pt-5 pt-md-0">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</h3>
                         <p class="footer-quote d-flex mx-auto">Inspirerende quote van pak hem beet 30 woorden. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maiores, corporis modi natus eius libero. Nisi, asperiores totam. Eius, accusamus.</p>
                     </div>
                     <div class="col-lg-4">
-                        <h3 class="font-secondary">Sitemap</h3>
+                        <h3 class="font-secondary pt-5 pt-md-0">Sitemap</h3>
                         <p><i class="fas fa-chevron-right text-color-secondary"></i><a class="ps-2" href="/">Home</a></p>
                         <p><i class="fas fa-chevron-right text-color-secondary"></i><a class="ps-2" href="/leiderschap-in-de-academie.html">Leiderschap in de academie</a></p>
                         <p><i class="fas fa-chevron-right text-color-secondary"></i><a class="ps-2" href="/over-ons.html">Over Ons</a></p>
@@ -21,7 +21,7 @@ class CustomFooter extends HTMLElement {
 
                     </div>
                     <div class="col-lg-4">
-                        <h3 class="font-secondary">Contact</h3>
+                        <h3 class="font-secondary pt-5 pt-md-0">Contact</h3>
                         <p>BARBARA TAKACS</p>
                         <p><a href="tel:+31624156731">+ 31 6 241 56731</a></p>
                         <p><a href="mailto:mail@barbaratakacs.nl">mail@barbaratakacs.nl</a></p>

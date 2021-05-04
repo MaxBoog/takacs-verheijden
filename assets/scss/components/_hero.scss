@@ -30,21 +30,32 @@
   }
 
   .logo {
-    width: 25rem;
+    width: 17rem;
   }
   // arrow down
 
   .arrow-down {
     color: $white;
-    margin-bottom: -7rem;
+    margin-bottom: -4rem;
   }
 }
 
 @media (min-width: 756px) {
-  .hero-title {
-    font-size: $font-4xl !important;
-  }
-  .hero-subtitle {
-    font-size: $font-2xl !important;
+  .hero {
+    .hero-title {
+      font-size: $font-4xl !important;
+    }
+
+    .hero-subtitle {
+      font-size: $font-2xl !important;
+    }
+
+    .logo {
+      width: 23rem;
+    }
+
+    .arrow-down {
+      margin-bottom: -10rem;
+    }
   }
 }

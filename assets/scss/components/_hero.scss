@@ -40,6 +40,23 @@
   }
 }
 
+.hero-2 {
+  @extend .hero;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("/assets/images/parallax-grey.jpg") !important;
+  height: 50vh;
+
+  .hero-title {
+    font-family: $font-primary;
+    font-size: $font-4xl !important;
+    margin-top: 6rem;
+  }
+}
+
 @media (min-width: 756px) {
   .hero {
     .hero-title {
@@ -56,6 +73,14 @@
 
     .arrow-down {
       margin-bottom: -10rem;
+    }
+  }
+
+  .hero-2 {
+    @extend .hero;
+
+    .hero-title {
+      font-size: $font-6xl !important;
     }
   }
 }

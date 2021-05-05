@@ -1,0 +1,9 @@
+#mapid {
+  height: 300px;
+}
+
+@media (min-width: 756px) {
+  #mapid {
+    height: 500px;
+  }
+}

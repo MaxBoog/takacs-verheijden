@@ -53,7 +53,7 @@
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url("/assets/images/parallax-grey.jpg") !important;
+    url("/assets/images/parallax.jpg") !important;
   height: 50vh;
 
   .hero-title {
@@ -70,8 +70,12 @@
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url("/assets/images/.jpg") !important;
+    url("/assets/images/leiderschap.jpg") !important;
   height: 50vh;
+
+  .hero-subtitle {
+    color: $white;
+  }
 }
 
 @media (min-width: 756px) {

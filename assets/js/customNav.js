@@ -13,7 +13,7 @@ class CustomNav extends HTMLElement {
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="/">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="/leiderschap-in-de-academie.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,10 +28,10 @@ class CustomNav extends HTMLElement {
                         </ul>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/over-ons.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Over Ons</a>
+                    <a class="nav-link" href="/over-ons.html">Over Ons</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/contact.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</a>
+                    <a class="nav-link" href="/contact.html">Contact</a>
                     </li>
                 
                 </ul>

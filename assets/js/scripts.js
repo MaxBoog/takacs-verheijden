@@ -7,4 +7,3 @@ function closeNav() {
     document.getElementById(
         "nav").style.height = "0%";
 }
-

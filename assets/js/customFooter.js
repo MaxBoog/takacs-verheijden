@@ -10,7 +10,11 @@ class CustomFooter extends HTMLElement {
                 <div class="row justify-content-start">
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</h3>
-                        <p class="footer-quote d-flex mx-auto">Inspirerende quote van pak hem beet 30 woorden. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maiores, corporis modi natus eius libero. Nisi, asperiores totam. Eius, accusamus.</p>
+                        <p class="footer-quote d-flex mx-auto">De universiteit is grenzeloos. Een carrière in de wetenschap vergt veel van mensen. Het onderzoek is nooit 'klaar' en je onderwijs kan altijd beter. Bovendien is de noodzaak om samen te werken sterk toegenomen. En dat betekent afstemmen, belangen verkennen, prioriteiten stellen, collega’s om medewerking vragen, afspraken maken en ze vervolgens aan die afspraken houden. Samenwerken betekent ook: helder communiceren, gewauwel confronteren, mensen motiveren en grenzen aangeven.
+
+Leiding geven dus.
+
+Andere wetenschappers begeleiden en coachen is een vak apart en iedereen kan het leren - of er in elk geval beter in worden. </p>
                     </div>
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Sitemap</h3>

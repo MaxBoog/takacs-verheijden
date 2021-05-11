@@ -42,7 +42,7 @@
 }
 
 @media (min-width: 756px) {
-  .button-primary {
+  .button-1 {
     font-size: $font-xl !important;
   }
 }
@@ -54,4 +54,7 @@
 }
 .linked-in {
   color: #0a66c2;
+  &:hover {
+    color: #7198c7;
+  }
 }

@@ -10,7 +10,7 @@ class CustomFooter extends HTMLElement {
                 <div class="row justify-content-start">
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</h3>
-                        <p class="footer-quote d-flex mx-auto">Wij zijn zelf geen wetenschappers, maar we hebben wel genoeg ervaring om een andere invalshoek te kunnen bieden. Aan goede plannen en intenties ontbreekt het meestal niet. Wel blijkt het lastig om voornemens ook werkelijk uit te voeren. Soms helpt een flinke duw, een echt gesprek, of een paradoxale interventie om het bootje uit het riet te krijgen.</p>
+                        <p class="footer-quote d-flex mx-auto">Wetenschappers zijn intrinsiek zeer gedreven om het beste te geven in onderwijs, onderzoek en patiëntenzorg, maar goede intenties kunnen soms onbedoelde en zelfs desastreuze effecten hebben. Zelfreflectie, feedback, collegiale consultatie en open communicatie helpen om kritisch te blijven op jezelf en daarmee ruimte te scheppen voor een veilige en uitnodigende gemeenschap van medewerkers en studenten. Leidinggevenden spelen hier een cruciale rol.</p>
                     </div>
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Sitemap</h3>
@@ -33,8 +33,8 @@ class CustomFooter extends HTMLElement {
                 <div class="row">
                     <div class="col">
                         <div class="copyright">
-                            <p>&copy; ${datum} - <a href="www.takacs-verheijden.nl">takacs-verheijden.nl</a></p>
-                            <p class="pt-2 dbw">a design by: <a href="www.delbellowebdesign.nl">delbellowebdesgin.nl</a></p>
+                            <p>&copy; ${datum} - <a href="https://www.takacs-verheijden.nl">takacs-verheijden.nl</a></p>
+                            <p class="pt-2 dbw">a design by: <a href="https//www.delbellowebdesign.nl">delbellowebdesgin.nl</a></p>
                             <p class="icon-note pt-2">icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
                         </div>
                     </div>

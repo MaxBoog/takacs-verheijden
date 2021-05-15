@@ -33,6 +33,10 @@
   @extend .button-1;
   background-color: $color-4;
   color: $black;
+
+  &:hover {
+    color: $black;
+  }
 }
 
 .button-4 {

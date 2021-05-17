@@ -28,7 +28,7 @@ class CustomNav extends HTMLElement {
                         </ul>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/over-ons.html">Over Ons</a>
+                    <a class="nav-link" href="/over-ons.html">Over ons</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="/contact.html">Contact</a>

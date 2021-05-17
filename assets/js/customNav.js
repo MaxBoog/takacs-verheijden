@@ -20,10 +20,10 @@ class CustomNav extends HTMLElement {
                         Leiderschap in de academie
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#coaching">Coaching</a></li>
-                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#intervisie">Intervisie</a></li>
-                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#verandertrajecten">Verandertrajecten</a></li>
                             <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#leiderschapsontwikkeling">Leiderschapsontwikkeling</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#coaching">Coaching</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#verandertrajecten">Verandertrajecten</a></li>
+                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#intervisie">Intervisie</a></li>
                             <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#samenwerken-in-groepen">Samenwerken in groepen</a></li>
                         </ul>
                     </li>

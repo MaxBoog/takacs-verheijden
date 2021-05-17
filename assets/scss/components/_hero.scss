@@ -1,11 +1,11 @@
 .hero {
   height: 80vh;
-  //   background-image: linear-gradient(
-  //       to bottom,
-  //       rgba(0, 0, 0, 0.5) 0%,
-  //       rgba(0, 0, 0, 0.4) 100%
-  //     ),
-  //     url("/assets/images/hero-globe.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("/assets/images/hero5.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
   }
 
   .hero-subtitle {
-    color: $black;
+    color: $white;
     font-size: $font-xl;
     padding-bottom: 2rem;
   }
@@ -40,7 +40,7 @@
   // arrow down
 
   .arrow-down {
-    color: $black;
+    color: $white;
     margin-bottom: -4rem;
     display: none;
   }
@@ -68,7 +68,7 @@
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.4) 100%
+      rgba(255, 255, 255, 0.2) 100%
     ),
     url("/assets/images/leiderschap.jpg") !important;
   height: 50vh;

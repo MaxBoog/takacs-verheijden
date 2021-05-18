@@ -45,6 +45,10 @@
   background-color: $color-3;
 }
 
+.btn-send {
+  color: $white !important;
+}
+
 @media (min-width: 756px) {
   .button-1 {
     font-size: $font-xl !important;

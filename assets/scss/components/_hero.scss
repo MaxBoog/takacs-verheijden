@@ -20,7 +20,7 @@
 
   .hero-title {
     color: $white;
-    font-family: $font-secondary;
+    font-family: $font-primary;
     font-size: $font-2xl;
   }
 
@@ -73,6 +73,12 @@
     url("/assets/images/leiderschap.jpg") !important;
   height: 50vh;
 
+  .hero-title {
+    font-family: $font-primary;
+    font-size: $font-4xl !important;
+    margin-top: 6rem;
+  }
+
   .hero-subtitle {
     color: $white;
   }
@@ -105,6 +111,14 @@
   }
 
   .hero-2 {
+    @extend .hero;
+
+    .hero-title {
+      font-size: $font-6xl !important;
+    }
+  }
+
+  .hero-3 {
     @extend .hero;
 
     .hero-title {

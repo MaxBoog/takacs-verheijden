@@ -3,7 +3,7 @@ class CustomNav extends HTMLElement {
         super();
         this.innerHTML = `
         
-        <nav class="navbar navbar-custom navbar-light fixed-top shadow">
+        <nav class="navbar navbar-custom navbar-light fixed-top shadow" id="navbar">
             <div class="container">
                 <!-- <a class="navbar-brand" href="/"><img class="img-logo" width="45"  src="/assets/images/paper-boat.svg" alt="Takacs & Verheijden"/></a> -->
                 <a class="navbar-brand" href="/">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</a>

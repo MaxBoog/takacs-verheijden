@@ -66,3 +66,30 @@
     color: #7198c7;
   }
 }
+
+.badge {
+  background-color: $light-grey;
+  padding: 0.5rem;
+  
+  a {
+    color: $black;
+    text-decoration: none;
+    &:hover {
+      color: $color-1;
+    }
+  }
+}
+
+
+.scroll-top {
+  position: fixed;
+  color: $color-1;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}

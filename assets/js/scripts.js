@@ -23,3 +23,10 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "2rem 2rem";
   }
 }
+
+// scroll to top button
+
+function scrollToTop() {
+    window.scroll({top: 0, left: 0, behavior: 'smooth'});
+  }
+  

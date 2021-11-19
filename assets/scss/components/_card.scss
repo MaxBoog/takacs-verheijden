@@ -72,7 +72,7 @@
 
 @media (min-width: 756px) {
   .card {
-    font-size: $font-base;
+    font-size: $font-sm;
   }
 
   .card-3 {
@@ -92,7 +92,7 @@
 @media (min-width: 1400px) {
   .card-1 {
     .card-title {
-      font-size: $font-2xl !important;
+      // font-size: $font-xl !important;
     }
   }
 }

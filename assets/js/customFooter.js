@@ -10,7 +10,7 @@ class CustomFooter extends HTMLElement {
                 <div class="row justify-content-start">
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</h3>
-                        <p class="footer-quote d-flex mx-auto">Wetenschappers zijn intrinsiek zeer gedreven om het beste te geven in onderwijs, onderzoek en patiëntenzorg, maar goede intenties kunnen soms onbedoelde en zelfs desastreuze effecten hebben. Zelfreflectie, feedback, collegiale consultatie en open communicatie helpen om kritisch te blijven op jezelf en daarmee ruimte te scheppen voor een veilige en uitnodigende gemeenschap van medewerkers en studenten. Leidinggevenden spelen hier een cruciale rol.</p>
+                        <p class="footer-quote d-flex mx-auto"></p>
                     </div>
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Sitemap</h3>

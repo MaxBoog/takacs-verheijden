@@ -24,9 +24,11 @@ function scrollFunction() {
   }
 }
 
+
 // scroll to top button
 
 function scrollToTop() {
     window.scroll({top: 0, left: 0, behavior: 'smooth'});
   }
+
   

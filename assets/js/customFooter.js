@@ -9,7 +9,7 @@ class CustomFooter extends HTMLElement {
             <div class="container padding-y footer">
                 <div class="row justify-content-start">
                     <div class="col-lg-4">
-                        <h3 class="font-secondary pt-5 pt-md-0">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</h3>
+                        <h3 class="font-secondary pt-5 pt-md-0">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden BV</h3>
                         <p class="footer-quote d-flex mx-auto"></p>
                     </div>
                     <div class="col-lg-4">
@@ -22,7 +22,7 @@ class CustomFooter extends HTMLElement {
                     </div>
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Contact</h3>
-                        <p>BARBARA TAKACS</p>
+                        <p>Barbara Takacs</p>
                         <p><a href="tel:+31624156731">+ 31 6 241 56731</a></p>
                         <p><a href="mailto:mail@barbaratakacs.nl">mail@barbaratakacs.nl</a></p>
                         <p>Molenaerstraat 18</p>

@@ -21,9 +21,9 @@ class CustomNav extends HTMLElement {
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#leiderschapsontwikkeling">Leiderschapsontwikkeling</a></li>
-                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#intervisie">Intervisie</a></li>
-                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#coaching">Coaching</a></li>
-                            <li><a class="dropdown-item" href="/leiderschap-in-de-academie.html#advies">Advies</a></li>
+                            <li><a class="dropdown-item" href="leiderschap-in-de-academie.html#intervisie">Intervisie</a></li>
+                            <li><a class="dropdown-item" href="leiderschap-in-de-academie.html#coaching">Coaching</a></li>
+                            <li><a class="dropdown-item" href="leiderschap-in-de-academie.html#advies">Advies</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

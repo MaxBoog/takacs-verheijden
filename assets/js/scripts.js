@@ -30,7 +30,7 @@ function scrollToTop() {
 
 // close navbar on click
 
-const navLinks = document.querySelectorAll(".nav-item");
+const navLinks = document.querySelectorAll(".dropdown-item");
 const menuToggle = document.getElementById("navbarSupportedContent");
 const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
 navLinks.forEach((l) => {

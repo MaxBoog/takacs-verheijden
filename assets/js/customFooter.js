@@ -35,7 +35,7 @@ class CustomFooter extends HTMLElement {
                     <div class="col">
                         <div class="copyright">
                             <p>&copy; ${datum} - <a href="https://www.takacs-verheijden.nl">takacs-verheijden.nl</a></p>
-                            <p>Wij volgen de klachtenprocedure zoals beschreven door <a href="https://nobtra.nl/opdrachtgevers/klachtenprocedure" target="_blank"><u>NOBTRA</u></a></p>
+                            <!-- <p>Wij volgen de klachtenprocedure zoals beschreven door <a href="https://nobtra.nl/opdrachtgevers/klachtenprocedure" target="_blank"><u>NOBTRA</u></a></p> -->
                             <p class="pt-2 dbw">a design by: <a href="https://www.delbellowebdesign.nl" target="_blank">delbellowebdesgin.nl</a></p>
                             <p class="icon-note pt-2">icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
                         </div>

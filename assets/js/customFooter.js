@@ -11,7 +11,7 @@ class CustomFooter extends HTMLElement {
                         <!-- <p class="footer-quote d-flex mx-auto"></p> -->
                         <p><i class="fas fa-chevron-right text-color-secondary"></i><a class="ps-2" href="/assets/docs/Algmene voorwaarden Takacs & Verheijden B.V. .pdf">Algemene voorwaarden</a></p>
                         <p><i class="fas fa-chevron-right text-color-secondary"></i><a class="ps-2" href="/assets/docs/Klachtenregeling Takacs & Verheijden.pdf">Klachtenregeling</a></p>
-                        <p><i class="fas fa-chevron-right text-color-secondary"></i><a class="ps-2" href="/assets/docs/Privacyverklaring.pdf">Privicy verklaring</a></p>
+                        <p><i class="fas fa-chevron-right text-color-secondary"></i><a class="ps-2" href="/assets/docs/Privacyverklaring.pdf">Privacy verklaring</a></p>
                     </div>
                     <div class="col-lg-4">
                         <h3 class="font-secondary pt-5 pt-md-0">Sitemap</h3>

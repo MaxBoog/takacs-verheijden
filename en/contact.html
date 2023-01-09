@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Takacs &amp; Verheijden - Contact</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="/assets/css/master.css" />
+
+    <meta
+      name="description"
+      content="Scientists are intrinsically driven to give the best in education, research and patient care, but good intentions can sometimes have unintended and even disastrous effects. Self-reflection, feedback, peer consultation and open communication help you to remain critical of yourself and thus create space for a safe and inviting community of employees and students. Performing leadership is a crucial role here."
+    />
+    <meta
+      name="keywords"
+      content="Takacs,Verheijden,Barbara,Leadership, Academic Leadership, Developing Leadership,Coaching,Change processes,Intervision,Group Collaboration"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/assets/images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta
+      name="msapplication-config"
+      content="/assets/images/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <custom-nav></custom-nav>
+
+    <section class="hero-2">
+      <div class="container">
+        <header class="hero-text">
+          <!-- <h1 class="hero-title display-1">Takacs <span class="text-color-secondary"> &amp;</span> Verheijden</h1> -->
+          <h1 class="hero-title text-center">Contact</h1>
+        </header>
+      </div>
+      <!-- <div class="container">
+                <p class="text-center"><a href="#down"><i class="fas fa-chevron-down fa-lg arrow-down" ></i></a></p>
+            </div> -->
+    </section>
+
+    <section id="contact">
+      <div class="container padding-y padding-x">
+        <!-- <hr> -->
+        <div class="row">
+          <div class="col-lg-4">
+            <h3 class="pt-5 pb-3 pt-md-0">Information</h3>
+            <p>Barbara Takacs</p>
+            <p><a href="tel:+31624156731">+ 31 6 241 56731</a></p>
+            <p>
+              <a href="mailto:mail@barbaratakacs.nl">mail@barbaratakacs.nl</a>
+            </p>
+            <p>Molenaerstraat 18</p>
+            <p class="pb-2">2023 EK Haarlem</p>
+          </div>
+          <div class="col-lg-8">
+            <h1 class="pb-3">Ask your question!</h1>
+            <p>We reply within 24 hours.</p>
+
+            <form
+              id="contactformulier"
+              name="contactformulier Takacs"
+              method="POST"
+              netlify-honeypot="bot-field"
+              data-netlify="true"
+            >
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <p class="hidden">
+                        <label
+                          >Don’t fill this out if you're human:
+                          <input name="bot-field"
+                        /></label>
+                      </p>
+
+                      <input
+                        id="form_name"
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="First name *"
+                        required="required"
+                        data-error="First name is required."
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        id="form_lastname"
+                        type="text"
+                        name="surname"
+                        class="form-control"
+                        placeholder="Last name *"
+                        required="required"
+                        data-error="Last name is required."
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        id="form_email"
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Email *"
+                        required="required"
+                        data-error="Email is not valid."
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        id="form_phone"
+                        type="tel"
+                        name="phone"
+                        class="form-control"
+                        placeholder="Telephone number"
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea
+                        id="form_message"
+                        name="message"
+                        class="form-control"
+                        placeholder="Your message... *"
+                        rows="4"
+                        required="required"
+                        data-error="Without a message it will be hard for us to help you."
+                      ></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="submit" class="btn btn-send" value="Send" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="container padding-x">
+        <div class="row">
+          <div class="col mx-auto pb-5">
+            <hr />
+            <div id="mapid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="/assets/js/customNavEn.js"></script>
+    <script src="/assets/js/scripts-dist.js"></script>
+    <script src="/assets/js/customFooterEn.js"></script>
+    <script>
+      var mymap = L.map("mapid").setView([52.3937014, 4.631419], 14);
+      var marker = L.marker([52.3937014, 4.631419]).addTo(mymap);
+      L.tileLayer(
+        "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
+        {
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+          // maxZoom: 18,
+          scrollWheelZoom: false,
+          id: "mapbox/streets-v11",
+          tileSize: 512,
+          zoomOffset: -1,
+          accessToken:
+            "pk.eyJ1IjoiZGVsYmVsbG93ZWJkZXNpZ24iLCJhIjoiY2tvYm5uZmd4MDlvcjJvbjExdHFyZ2V3YSJ9.h-IMwFjrKPrKw3wMQHQZNA",
+        }
+      ).addTo(mymap);
+    </script>
+  </body>
+</html>

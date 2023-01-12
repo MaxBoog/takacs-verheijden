@@ -33,6 +33,7 @@ class CustomFooter extends HTMLElement {
                 <hr/>
                 <div class="row">
                     <div class="col">
+                        <a href="https://www.crkbo.nl/"><img class="img-fluid " style="max-width: 100px; margin-bottom:3rem" src="/assets/images/CRKBO_Instelling.jpg" alt="CRKBO" /></a>
                         <div class="copyright">
                             <p>&copy; ${datum} - <a href="https://www.takacs-verheijden.nl/en/">takacs-verheijden.nl</a></p>
                             <!-- <p>Wij volgen de klachtenprocedure zoals beschreven door <a href="https://nobtra.nl/opdrachtgevers/klachtenprocedure" target="_blank"><u>NOBTRA</u></a></p> -->

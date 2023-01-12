@@ -33,13 +33,15 @@ class CustomFooter extends HTMLElement {
                 <hr/>
                 <div class="row">
                     <div class="col">
+                        <a href="https://www.crkbo.nl/"><img class="img-fluid " style="max-width: 100px; margin-bottom:3rem" src="/assets/images/CRKBO_Instelling.jpg" alt="CRKBO" /></a>
                         <div class="copyright">
                             <p>&copy; ${datum} - <a href="https://www.takacs-verheijden.nl">takacs-verheijden.nl</a></p>
                             <!-- <p>Wij volgen de klachtenprocedure zoals beschreven door <a href="https://nobtra.nl/opdrachtgevers/klachtenprocedure" target="_blank"><u>NOBTRA</u></a></p> -->
                             <p class="pt-2 dbw">a design by: <a href="https://www.delbellowebdesign.nl" target="_blank">delbellowebdesgin.nl</a></p>
-                            <p class="icon-note pt-2">icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                            <p class="icon-note py-2">icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             
